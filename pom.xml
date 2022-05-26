@@ -11,6 +11,7 @@
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
+        <testSuiteXmlFile>src/test/SuiteFiles/unit-test.xml</testSuiteXmlFile>
         <aspectj.version>1.8.10</aspectj.version>
     </properties>
 
@@ -70,7 +71,7 @@
                     <argLine>
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
                     </argLine>
-                    <suiteXmlFiles>testng.xml</suiteXmlFiles>
+                    <suiteXmlFiles>${testSuiteXmlFile}</suiteXmlFiles>
                 </configuration>
                 <dependencies>
                     <dependency>

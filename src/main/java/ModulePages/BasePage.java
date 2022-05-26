@@ -7,14 +7,15 @@ import org.openqa.selenium.WebDriver;
 
 public class BasePage {
 
-    public WebDriver driver;
+    public static WebDriver driver;
     public static ThreadLocal<WebDriver> tDriver = new ThreadLocal<WebDriver>();
-    public static Configuration configuration;
-    public static PropertiesConfiguration propertiesConfiguration;
-    public static UserInformation userInformation;
     public static LandingPage landingPage;
     public static TelevisionPage televisionPage;
+    public static Configuration configuration;
+    public static UserInformation userInformation;
+    public static PropertiesConfiguration propertiesConfiguration;
     public static String productPrice;
+    public static String executionPlatform;
 
     public static synchronized WebDriver getDriver() {
         return tDriver.get();
