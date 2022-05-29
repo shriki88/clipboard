@@ -11,7 +11,9 @@
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
-        <testSuiteXmlFile>src/test/SuiteFiles/unit-test.xml</testSuiteXmlFile>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <testngXmlDir>src/test/SuiteFile</testngXmlDir>
+        <testngXmlFile>${testngXmlFile}</testngXmlFile>
         <aspectj.version>1.8.10</aspectj.version>
     </properties>
 
@@ -71,7 +73,10 @@
                     <argLine>
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
                     </argLine>
-                    <suiteXmlFiles>${testSuiteXmlFile}</suiteXmlFiles>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>${testngXmlDir}/${testngXmlFile}
+                        </suiteXmlFile>
+                    </suiteXmlFiles>
                 </configuration>
                 <dependencies>
                     <dependency>
@@ -83,5 +88,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>

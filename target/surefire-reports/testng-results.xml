@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[onStart method Amazon Tests]]>
+    </line>
+    <line>
+      <![CDATA[onTestStart method verifyTextAboutThisItem started]]>
+    </line>
+    <line>
+      <![CDATA[Test executing on GRID]]>
+    </line>
+    <line>
+      <![CDATA[URL accessed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Display/Visibility of the element is verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[Application accessed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed successfully]]>
+    </line>
+    <line>
+      <![CDATA[onTestSuccess method verifyTextAboutThisItem succeed]]>
+    </line>
+  </reporter-output>
+  <suite name="CB Test Suite" duration-ms="38885" started-at="2022-05-29T10:13:35 IST" finished-at="2022-05-29T10:14:14 IST">
+    <groups>
+    </groups>
+    <test name="Amazon Tests" duration-ms="38885" started-at="2022-05-29T10:13:35 IST" finished-at="2022-05-29T10:14:14 IST">
+      <class name="ApplicationTests.E2ETest">
+        <test-method status="PASS" signature="ObjectCreation()[pri:0, instance:ApplicationTests.E2ETest@2c4ca0f9]" name="ObjectCreation" is-config="true" duration-ms="78" started-at="2022-05-29T10:13:35 IST" finished-at="2022-05-29T10:13:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ObjectCreation -->
+        <test-method status="PASS" signature="verifyTextAboutThisItem()[pri:0, instance:ApplicationTests.E2ETest@2c4ca0f9]" name="verifyTextAboutThisItem" duration-ms="38364" started-at="2022-05-29T10:13:35 IST" description="verifyTextAboutThisItem" finished-at="2022-05-29T10:14:13 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[onTestStart method verifyTextAboutThisItem started]]>
+            </line>
+            <line>
+              <![CDATA[Test executing on GRID]]>
+            </line>
+            <line>
+              <![CDATA[URL accessed successfully]]>
+            </line>
+            <line>
+              <![CDATA[Display/Visibility of the element is verified successfully]]>
+            </line>
+            <line>
+              <![CDATA[Application accessed successfully]]>
+            </line>
+            <line>
+              <![CDATA[Browser closed successfully]]>
+            </line>
+            <line>
+              <![CDATA[onTestSuccess method verifyTextAboutThisItem succeed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTextAboutThisItem -->
+      </class> <!-- ApplicationTests.E2ETest -->
+    </test> <!-- Amazon Tests -->
+  </suite> <!-- CB Test Suite -->
+</testng-results>
