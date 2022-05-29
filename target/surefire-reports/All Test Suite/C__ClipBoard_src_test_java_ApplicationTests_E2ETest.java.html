@@ -1,0 +1,340 @@
+<html>
+<head>
+<title>TestNG:  C:/ClipBoard/src/test/java/ApplicationTests/E2ETest.java</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>C:/ClipBoard/src/test/java/ApplicationTests/E2ETest.java</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat May 28 12:22:33 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>20 seconds (20185 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='ApplicationTests.E2ETest.verifyTextAboutThisItem()'><b>verifyTextAboutThisItem</b><br>Test class: ApplicationTests.E2ETest<br>Test method: verifyTextAboutThisItem<br/>
+<a href="#Output-1850646717" onClick='toggleBox("Output-1850646717", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1850646717" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1850646717">
+onTestStart method verifyTextAboutThisItem started<br/>
+Test executing on LOCAL<br/>
+onTestFailure method verifyTextAboutThisItem failed<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: session not created
+from disconnected: received Inspector.detached event
+  (Session info: chrome=102.0.5005.63)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-4N3NS9MH&apos;, ip: &apos;192.168.1.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0105D953+2414931]
+	Ordinal0 [0x00FEF5E1+1963489]
+	Ordinal0 [0x00EDC6B8+837304]
+	Ordinal0 [0x00ECE45E+779358]
+	Ordinal0 [0x00ECE04F+778319]
+	Ordinal0 [0x00ECD646+775750]
+	Ordinal0 [0x00ECC565+771429]
+	Ordinal0 [0x00ECCA3D+772669]
+	Ordinal0 [0x00ECC185+770437]
+	Ordinal0 [0x00ED8253+819795]
+	Ordinal0 [0x00ECC135+770357]
+	Ordinal0 [0x00ECD228+774696]
+	Ordinal0 [0x00ECC565+771429]
+	Ordinal0 [0x00ECCA3D+772669]
+	Ordinal0 [0x00ECC185+770437]
+	Ordinal0 [0x00ED5F18+810776]
+	Ordinal0 [0x00ECC135+770357]
+	Ordinal0 [0x00ECD228+774696]
+	Ordinal0 [0x00ECC565+771429]
+	Ordinal0 [0x00ECCA3D+772669]
+	Ordinal0 [0x00ECC185+770437]
+	Ordinal0 [0x00ED3CA2+801954]
+	Ordinal0 [0x00ECC135+770357]
+	Ordinal0 [0x00ECD228+774696]
+	Ordinal0 [0x00ECC565+771429]
+	Ordinal0 [0x00ECCB68+772968]
+	Ordinal0 [0x00ECCAF8+772856]
+	Ordinal0 [0x00ED27F6+796662]
+	Ordinal0 [0x00ED2730+796464]
+	Ordinal0 [0x00ECC135+770357]
+	Ordinal0 [0x00ECD228+774696]
+	Ordinal0 [0x00ECC565+771429]
+	Ordinal0 [0x00ECCA3D+772669]
+	Ordinal0 [0x00ECC185+770437]
+	Ordinal0 [0x00EC7ACD+752333]
+	Ordinal0 [0x00ECC135+770357]
+	Ordinal0 [0x00ECBEC0+769728]
+	Ordinal0 [0x00ECBC09+769033]
+	Ordinal0 [0x00EDDA30+842288]
+	Ordinal0 [0x00F2A199+1155481]
+	Ordinal0 [0x00F28D5A+1150298]
+	Ordinal0 [0x00F242B6+1131190]
+	Ordinal0 [0x00EFE860+976992]
+	Ordinal0 [0x00EFF756+980822]
+	GetHandleVerifier [0x012CCC62+2510274]
+	GetHandleVerifier [0x012BF760+2455744]
+	GetHandleVerifier [0x010EEABA+551962]
+	GetHandleVerifier [0x010ED916+547446]
+	Ordinal0 [0x00FF5F3B+1990459]
+	Ordinal0 [0x00FFA898+2009240]
+	Ordinal0 [0x00FFA985+2009477]
+	Ordinal0 [0x01003AD1+2046673]
+	BaseThreadInitThunk [0x76956739+25]
+	RtlGetFullPathName_UEx [0x77B68FEF+1215]
+	RtlGetFullPathName_UEx [0x77B68FBD+1165]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at CommonUtilities.CommonMethods.launchBrowserAndGetURL(CommonMethods.java:125)
+	at ApplicationPageClasses.ApplicationLandingPage.accessApplication(ApplicationLandingPage.java:19)
+	at ApplicationTests.E2ETest.verifyTextAboutThisItem(E2ETest.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1850646717", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1850646717'><pre>org.openqa.selenium.SessionNotCreatedException: session not created
+from disconnected: received Inspector.detached event
+  (Session info: chrome=102.0.5005.63)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-4N3NS9MH&apos;, ip: &apos;192.168.1.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0105D953+2414931]
+	Ordinal0 [0x00FEF5E1+1963489]
+	Ordinal0 [0x00EDC6B8+837304]
+	Ordinal0 [0x00ECE45E+779358]
+	Ordinal0 [0x00ECE04F+778319]
+	Ordinal0 [0x00ECD646+775750]
+	Ordinal0 [0x00ECC565+771429]
+	Ordinal0 [0x00ECCA3D+772669]
+	Ordinal0 [0x00ECC185+770437]
+	Ordinal0 [0x00ED8253+819795]
+	Ordinal0 [0x00ECC135+770357]
+	Ordinal0 [0x00ECD228+774696]
+	Ordinal0 [0x00ECC565+771429]
+	Ordinal0 [0x00ECCA3D+772669]
+	Ordinal0 [0x00ECC185+770437]
+	Ordinal0 [0x00ED5F18+810776]
+	Ordinal0 [0x00ECC135+770357]
+	Ordinal0 [0x00ECD228+774696]
+	Ordinal0 [0x00ECC565+771429]
+	Ordinal0 [0x00ECCA3D+772669]
+	Ordinal0 [0x00ECC185+770437]
+	Ordinal0 [0x00ED3CA2+801954]
+	Ordinal0 [0x00ECC135+770357]
+	Ordinal0 [0x00ECD228+774696]
+	Ordinal0 [0x00ECC565+771429]
+	Ordinal0 [0x00ECCB68+772968]
+	Ordinal0 [0x00ECCAF8+772856]
+	Ordinal0 [0x00ED27F6+796662]
+	Ordinal0 [0x00ED2730+796464]
+	Ordinal0 [0x00ECC135+770357]
+	Ordinal0 [0x00ECD228+774696]
+	Ordinal0 [0x00ECC565+771429]
+	Ordinal0 [0x00ECCA3D+772669]
+	Ordinal0 [0x00ECC185+770437]
+	Ordinal0 [0x00EC7ACD+752333]
+	Ordinal0 [0x00ECC135+770357]
+	Ordinal0 [0x00ECBEC0+769728]
+	Ordinal0 [0x00ECBC09+769033]
+	Ordinal0 [0x00EDDA30+842288]
+	Ordinal0 [0x00F2A199+1155481]
+	Ordinal0 [0x00F28D5A+1150298]
+	Ordinal0 [0x00F242B6+1131190]
+	Ordinal0 [0x00EFE860+976992]
+	Ordinal0 [0x00EFF756+980822]
+	GetHandleVerifier [0x012CCC62+2510274]
+	GetHandleVerifier [0x012BF760+2455744]
+	GetHandleVerifier [0x010EEABA+551962]
+	GetHandleVerifier [0x010ED916+547446]
+	Ordinal0 [0x00FF5F3B+1990459]
+	Ordinal0 [0x00FFA898+2009240]
+	Ordinal0 [0x00FFA985+2009477]
+	Ordinal0 [0x01003AD1+2046673]
+	BaseThreadInitThunk [0x76956739+25]
+	RtlGetFullPathName_UEx [0x77B68FEF+1215]
+	RtlGetFullPathName_UEx [0x77B68FBD+1165]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at CommonUtilities.CommonMethods.launchBrowserAndGetURL(CommonMethods.java:125)
+	at ApplicationPageClasses.ApplicationLandingPage.accessApplication(ApplicationLandingPage.java:19)
+	at ApplicationTests.E2ETest.verifyTextAboutThisItem(E2ETest.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+</pre></div></td>
+<td>19</td>
+<td>ApplicationTests.E2ETest@5241cf67</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,5 +1,0 @@
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="CB Test Validation">
-    <test name="CBTest" verbose="1" annotations="JDK">
-    </test>
-</suite>
