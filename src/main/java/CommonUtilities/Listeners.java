@@ -42,7 +42,7 @@ public class Listeners extends GettersAndSetters implements ITestListener {
         try {
             Runtime.getRuntime().exec(getAllureCommand() + otherFolder);
             try {
-                Thread.sleep(12000);
+                Thread.sleep(20000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
