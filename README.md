@@ -22,7 +22,8 @@ Steps to execute tests:
 3.	You can right click on the clipboard.xml file and run as well
 4.	You can run through command line as well by keying in the below command on your CLI
     mvn test -DtestngXmlFile=clipboard.xml -Dbrowser=chrome -Dplatform=GRID
-5.	Post execution the result will displayed as part of Allure Reports
+5.	Post execution the result will displayed as part of Allure Reports - This has been handled programatically. 
+    alternatively command line command - allure serve allure-results can be used from user project root directory
  
  
 
